@@ -11,7 +11,7 @@ gem 'acts_as_votable', '~> 0.14'
 gem 'barnes', '~> 0.0'
 gem 'bootsnap', '~> 1.15', require: false
 gem 'classy-yaml', '~> 0.8'
-gem 'debug', '~> 1.7'
+# gem 'debug', '~> 1.7'
 gem 'devise', '~> 4.9'
 gem 'discard', '~> 1.2'
 gem 'discordrb-webhooks', '~> 3.4'
