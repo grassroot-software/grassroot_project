@@ -45,6 +45,11 @@ Rails.application.routes.draw do
   get 'blog/2' => 'static_pages#blog2'
   get 'blog/3' => 'static_pages#blog3'
 
+  get 'job/1' => 'static_pages#job1'
+  get 'job/2' => 'static_pages#job2'
+  get 'job/3' => 'static_pages#job3'
+  get 'job/4' => 'static_pages#job4'
+
   get 'home' => 'static_pages#home'
   get 'about' => 'static_pages#about'
   get 'orientation' => 'static_pages#orientation'

@@ -10,11 +10,19 @@ class StaticPagesController < ApplicationController
   def orientation; end
 
   def blog; end
+  def job_placement; end
+
 
   def blog1; end
   def blog2; end
   def blog3; end
 
+  def job1; end
+  def job2; end
+  def job3; end
+  def job4; end
+
+  
   def faq; end
 
   def terms_of_use; end
