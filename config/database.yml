@@ -22,13 +22,19 @@ test: &test
   <<: *default
   database: <%= ENV['POSTGRES_TEST_DB'] || 'theodinproject_test' %>
 
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: db/production
+#   pool: 10
+#   username:
+#   password:
+
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: db/production
-  pool: 10
-  username:
-  password:
+  <<: *default
+  database: grassroot_prod
+  username: myapp
+  password: <%= ENV["MYAPP_DATABASE_PASSWORD"] %>
 
 cucumber:
   <<: *test
