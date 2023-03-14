@@ -1,0 +1,47 @@
+<%= title('Student Outcomes') %>
+
+    <center><h1 class="text-3xl font-bold" style="margin: 5rem 0 ;">Student Outcomes</h1></center>
+
+
+    <div class="page-container-o">
+    <section class="bio">
+      <%# <center><%= image_tag ("ori.jpg") %> 
+      </center>
+    </section>
+
+    <section class="cta-o">
+      
+      <h3>xxx
+      </h3>
+
+    </section>
+
+</div>
+
+
+<style>
+
+.page-container-o {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 7rem;
+  gap: 5rem;
+}
+
+.bio img {
+  border-radius: 10px;
+  max-width: 350px;
+}
+
+/*  */
+@media screen and (max-width: 850px) {
+    .page-container-o {
+      display: grid;
+      margin: 1rem 2.5rem;
+    }
+    .bio img {
+      max-width: 250px;
+    }
+}
+
+</style>

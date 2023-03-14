@@ -41,8 +41,8 @@
         data-transition-leave-end="transform opacity-0">
         <button type="button" class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
           <span class="sr-only">Close sidebar</span>
-          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          <svg class="h-6 w-6 text-white small" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path class="small-logo" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
       </div>
@@ -58,6 +58,10 @@
               <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths', icon_path: 'icons/map.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: notifications_path, text: 'Notifications', test_id: 'nav-notifications', icon_path: 'icons/bell.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community', icon_path: 'icons/speech-bubbles.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: orientation_path, text: 'Orientation', test_id: 'nav-orientation', icon_path: 'icons/information.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: job_placement_path, text: 'Job Placement', test_id: 'nav-job_placement', icon_path: 'icons/information.svg', mobile: true) %>
+              <%# <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community', icon_path: 'icons/speech-bubbles.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: outcomes_path, text: 'Student Outcomes', test_id: 'nav-outcomes', icon_path: 'icons/information.svg', mobile: true) %>
             <% else %>
               <%= render Nav::ItemComponent.new(path: root_path, text: 'Home', test_id: 'nav-home', icon_path: 'icons/home.svg', mobile: true) %>
               <%# <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths', icon_path: 'icons/map.svg', mobile: true) %> 
@@ -66,6 +70,7 @@
               <%= render Nav::ItemComponent.new(path: orientation_path, text: 'Orientation', test_id: 'nav-orientation', icon_path: 'icons/information.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: job_placement_path, text: 'Job Placement', test_id: 'nav-job_placement', icon_path: 'icons/information.svg', mobile: true) %>
               <%# <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community', icon_path: 'icons/speech-bubbles.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: outcomes_path, text: 'Student Outcomes', test_id: 'nav-outcomes', icon_path: 'icons/information.svg', mobile: true) %>
             <% end %>
           </div>
           <hr class="border-t border-gray-200 my-4" aria-hidden="true">
@@ -93,3 +98,11 @@
     </div>
   </div>
 </div>
+
+
+
+<style>
+.small {
+  border: 1px solide red;
+}
+</style>

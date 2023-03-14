@@ -11,6 +11,7 @@ class StaticPagesController < ApplicationController
 
   def blog; end
   def job_placement; end
+  def outcomes; end
 
 
   def blog1; end

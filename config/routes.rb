@@ -53,6 +53,7 @@ Rails.application.routes.draw do
   get 'home' => 'static_pages#home'
   get 'about' => 'static_pages#about'
   get 'orientation' => 'static_pages#orientation'
+  get 'outcomes' => 'static_pages#outcomes'
   get 'blog' => 'static_pages#blog'
   get 'job_placement' => 'static_pages#job_placement'
   get 'faq' => 'static_pages#faq'
