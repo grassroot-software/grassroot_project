@@ -566,8 +566,11 @@ GEM
       webrick (~> 1.7.0)
     zeitwerk (2.6.7)
 
+
 PLATFORMS
   ruby
+  x86_64-linux
+  x86_64-darwin-16
 
 DEPENDENCIES
   active_material (~> 1.5)
