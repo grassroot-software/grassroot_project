@@ -34,7 +34,7 @@
           <%= render User::ProfileDropdownComponent.new(current_user:) %>
         <% else %>
           <div class="hidden md:ml-6 md:flex sm:space-x-8">
-          <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
+          <%# <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
           <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
           <%= render Nav::ItemComponent.new(path: blog_path, text: 'Blog', test_id: 'nav-blog') %>          
           <%= render Nav::ItemComponent.new(path: orientation_path, text: 'Orientation', test_id: 'nav-orientation') %>
