@@ -12,7 +12,9 @@
 
       <%= link_to 'View Full Curriculum', paths_url, class: 'button button--secondary text-base' %>
     </header>
-    <%= image_tag 'home-isometric.svg', alt: 'home-page-banner' %>
+    <center>
+      <%= image_tag 'home.jpg', alt: 'home-page-banner' %>
+    </center>
   </div>
 
   <%= render 'static_pages/home/how_it_works' %>
@@ -21,3 +23,18 @@
 
   <%= render 'static_pages/home/success_stories', cache: true %>
 </div>
+
+
+
+
+<%# PageStatic Style Here %>
+
+<style>
+
+center img {
+  border-radius: 10px;
+  margin: 3rem 0 0 0;
+  max-width: 70%;
+}
+
+</style>
