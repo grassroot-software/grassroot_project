@@ -23,6 +23,14 @@ class StaticPagesController < ApplicationController
   def job3; end
   def job4; end
 
+
+  def musa; end
+  def ceci; end
+  def carlos; end
+  def baraka; end
+  def elizabeth; end
+  def kelvin; end
+
   
   def faq; end
 

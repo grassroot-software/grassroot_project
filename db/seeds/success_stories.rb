@@ -61,6 +61,20 @@ success_stories = [
     story_content: "<p>I remember when I first tried to learn to code. It's not an accident that I say I tried because if I'm honest, I started a few times before finally sticking to it. I tried many different resources, courses, and curriculums, but none of them seemed to teach in a way that made me stick to it.</p> </p> What differentiates Grassroot from all those other courses and curriculums out there is its unique way of providing guidance and answers to the most important questions, while also strengthening your ability to push through the curriculum and projects by yourself and as a result grow on your struggles.</p> <p>The reason why Grassroot was perfect for me was on the one hand because in its' well-structured paths I found answers to the most difficult of all questions: Where should I start? What should I learn first? How well do I have to know certain technologies? Besides providing answers to those questions, having a great and supportive community, another point to stress is the flexibility of the curriculum.</p> <p>I was able to use my creativity to design and code the projects, and often further ideas were provided to help you figure out which feature to add next. Now, I reached what I wouldn't have thought possible when I started. I landed a job :D.</p>",
     job_title: 'Reactjs Frontend Developer',
     social_media_link: 'https://github.com/aronfischer'
+  },
+  {
+    student_name: 'Melisa',
+    avatar_path_name: 'Melisa.jpg',
+    story_content: '<p>just 5 months of part-time study, I went from "It s too tough for me" to "with enough time, I can build anything with code". That confidence boost alone is enough evidence for me to say that Grassroot learning model is by far the best I have ever experienced. After completing the Full curriculum, I applied to one dream job, and I got it! It was the best investment of my time that I made. Even better than going to university!</p>',
+    job_title: 'Full Stack specialist at BlueChip Solutions - Nairobi, Kenya',
+    social_media_link: ''
+  },
+  {
+    student_name: 'Check poiat',
+    avatar_path_name: 'Check.jpg',
+    story_content: '<p>The thing with Grassroot is once you are done, you will realize just how fundamentally necessary everything is. Suffice to say, I did the full Program part time  while working. After the full Program I was  promoted to a software engineer at my current company because of the new skills I brought from Grassroot.</p>',
+    job_title: 'Full Stack Developer - Check poiat software Technologies - Johannesburg South Africa',
+    social_media_link: ''
   }
 ]
 

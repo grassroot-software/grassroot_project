@@ -50,6 +50,14 @@ Rails.application.routes.draw do
   get 'job/3' => 'static_pages#job3'
   get 'job/4' => 'static_pages#job4'
 
+
+  get '/storie/musa' => 'static_pages#musa'
+  get '/storie/ceci' => 'static_pages#ceci'
+  get '/storie/baraka' => 'static_pages#baraka'
+  get '/storie/elizabeth' => 'static_pages#elizabeth'
+  get '/storie/kelvin' => 'static_pages#kelvin'
+  get '/storie/carlos' => 'static_pages#carlos'
+
   get 'home' => 'static_pages#home'
   get 'about' => 'static_pages#about'
   get 'orientation' => 'static_pages#orientation'

@@ -1,0 +1,284 @@
+<%= title('Student Stories') %>
+
+
+<div class="wrapper side-paddings XXsnipcss_extracted_selector_selectionXX tether-target tether-enabled tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
+  <div class="post-info">
+  <br>
+    <h1 class="post-heading">Ceci Benitez</h1>
+  </div>
+  <div class="video-wrapper">
+    <div class="youtube-embed w-embed">
+        <iframe  class="youtube-embed w-embed" src="https://www.youtube.com/embed/WERmow755Po"></iframe>
+        <div class="play"></div>
+      </div>
+    </div>
+  </div>
+  <%# <div class="post">
+    <div class="rich-text-block h6 w-richtext">
+      <p>"My name is Musa Jabbararu Ntege and I'm from Uganda, Kampala. I'm a software engineer and am currently working at DigiSure, based in San Francisco, USA.</p>
+      <p>I am passionate about software engineering. This is what I want to do but I won't be able to get a job doing software engineering without any experience to be honest with you. I'm willing to do whatever it takes so with that drive I joined Microverse.</p>
+      <p>This, what I have now, is my dream job. Because a couple of years ago I didn't know this was actually even possible for me.</p>
+      <p>It's been amazing. DigiSure is a nice place to be with amazing people and most of the engineers are distributed so they understand this."</p>
+      <p>- Musa Ngete<br></p>
+    </div>
+  </div> %>
+</div>
+
+<br><br><br>
+
+<%# Sty;e Here %>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+.wrapper.side-paddings {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.post-info {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  margin-bottom: 16px;
+  color: rgb(169, 176, 190);
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 0.67em 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-size: 44px;
+  line-height: 56px;
+}
+.post-heading {
+  margin-top: 24px;
+  color: rgb(62, 57, 107);
+}
+h1,
+h2,
+h3,
+.bold-text-3,
+.text-block-18 {
+  font-family: Domine, sans-serif;
+}
+.video-wrapper {
+  width: 100%;
+  height: 600px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  box-shadow: rgba(89, 98, 115, 0.25) 0px 12px 40px 0px;
+}
+.w-embed::after,
+.w-embed::before {
+  content: " ";
+  display: table;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.w-embed::after {
+  clear: both;
+}
+.youtube-embed {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.youtube {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.youtube .play {
+  background: url("https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/61498edaafdfb92e5990990f_youtube-play-btn.png")
+    0px -50px / 100% no-repeat;
+  position: absolute;
+  height: 50px;
+  width: 69px;
+  transition: none 0s ease 0s;
+  inset: 0px;
+  margin: auto;
+}
+.youtube:hover .play {
+  background-position: 0px 0px;
+}
+.post {
+  display: flex;
+  width: 100%;
+  padding-right: 16.66%;
+  padding-left: 16.66%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 18px;
+}
+.w-richtext::after,
+.w-richtext::before {
+  content: " ";
+  display: table;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.w-richtext::after {
+  clear: both;
+}
+.rich-text-block {
+  color: rgb(99, 107, 152);
+  line-height: 34px;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  color: rgb(99, 108, 152);
+  line-height: 1.94;
+  font-weight: 400;
+}
+.post p {
+  margin-bottom: 28px;
+  font-size: 18px;
+  line-height: 1.89;
+}
+body,
+p {
+  font-family: Montserrat, sans-serif;
+}
+@media screen and (max-width: 991px) {
+  .wrapper.side-paddings {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .video-wrapper {
+    height: 480px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .video-wrapper {
+    height: 360px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .video-wrapper {
+    height: 240px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .post {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .post {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media screen and (max-width: 991px) {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .post p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .post p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .post p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .post p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .post p {
+    font-size: 17px;
+  }
+}
+
+</style>
