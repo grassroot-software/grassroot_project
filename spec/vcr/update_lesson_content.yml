@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//lesson_one_github_url
+    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents/lesson_one_github_url
     body:
       encoding: US-ASCII
       string: ''
@@ -70,7 +70,7 @@ http_interactions:
   recorded_at: Wed, 13 Jan 2021 22:30:49 GMT
 - request:
     method: get
-    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//lesson_two_github_url
+    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents/lesson_two_github_url
     body:
       encoding: US-ASCII
       string: ''

@@ -3,7 +3,7 @@ module ApplicationHelper
   include Pagy::Frontend
 
   def github_link(extension = '')
-    "https://github.com/TheOdinProject/#{extension}"
+    "https://github.com/grassroot-software/#{extension}"
   end
 
   def title(input = nil)

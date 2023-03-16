@@ -14,7 +14,7 @@ RSpec.describe LessonContentImporter do
 
   before do
     allow(Octokit).to receive(:contents)
-      .with('theodinproject/curriculum', path: '/ruby_basics/variables')
+      .with('grassroot-software/grassroot_curriculum', path: '/ruby_basics/variables')
       .and_return(lesson_content_from_github)
 
     allow(Base64).to receive(:decode64).and_return(decoded_lesson_content)
@@ -48,7 +48,7 @@ RSpec.describe LessonContentImporter do
     context 'when there is an error with octokit' do
       before do
         allow(Octokit).to receive(:contents)
-          .with('theodinproject/curriculum', path: '/ruby_basics/variables')
+          .with('grassroot-software/grassroot_curriculum', path: '/ruby_basics/variables')
           .and_raise(
             Octokit::Error.new(
               method: 'GET',
