@@ -7,8 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Accept:
-      - application/vnd.github.v3+json
+      # Accept:
+      # - application/vnd.github.v3+json
       User-Agent:
       - Octokit Ruby Gem 4.12.0
       Content-Type:
@@ -33,7 +33,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Ratelimit-Limit:
-      - '6000'
+      - '5000'
       X-Ratelimit-Remaining:
       - '4990'
       X-Ratelimit-Reset:
