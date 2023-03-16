@@ -45,7 +45,7 @@ class LessonContentImporter
   end
 
   def github_response
-    Octokit.contents('yayahc/grassroot_curriculum', path: lesson.github_path)
+    Octokit.contents('grassroot-software/grassroot_curriculum', path: lesson.github_path)
   end
 
   def log_error(message)
