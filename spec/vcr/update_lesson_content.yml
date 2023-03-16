@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/repos/theodinproject/curriculum/contents//lesson_one_github_url
+    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//lesson_one_github_url
     body:
       encoding: US-ASCII
       string: ''
@@ -51,9 +51,9 @@ http_interactions:
       Vary:
       - Accept-Encoding, Accept, X-Requested-With
       X-Ratelimit-Limit:
-      - '60'
+      - '5000'
       X-Ratelimit-Remaining:
-      - '46'
+      - '4600'
       X-Ratelimit-Reset:
       - '1610577694'
       X-Ratelimit-Used:
@@ -68,7 +68,7 @@ http_interactions:
   recorded_at: Wed, 13 Jan 2021 22:30:49 GMT
 - request:
     method: get
-    uri: https://api.github.com/repos/theodinproject/curriculum/contents//lesson_two_github_url
+    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//lesson_two_github_url
     body:
       encoding: US-ASCII
       string: ''
@@ -117,9 +117,9 @@ http_interactions:
       Vary:
       - Accept-Encoding, Accept, X-Requested-With
       X-Ratelimit-Limit:
-      - '60'
+      - '5000'
       X-Ratelimit-Remaining:
-      - '45'
+      - '4500'
       X-Ratelimit-Reset:
       - '1610577694'
       X-Ratelimit-Used:

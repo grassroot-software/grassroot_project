@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    url: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//README.md
+    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//README.md
     body:
       encoding: US-ASCII
       string: ''
@@ -14,7 +14,7 @@ http_interactions:
       Content-Type:
       - application/json
       Authorization:
-      - token <GITHUB_API_TOKEN>
+      - Bearer <GITHUB_API_TOKEN>
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
   response:
