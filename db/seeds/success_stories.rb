@@ -14,7 +14,7 @@ success_stories = [
     social_media_link: '#'
   },
   {
-    student_name: 'George Leo',
+    student_name: 'Anna lisberg',
     avatar_path_name: 'rob_pando.jpg',
     story_content: '<p>Grassroot was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me in all the right directions in order to complete them. That helped me dig deeper into various important topics, which then gave me the necessary knowledge and confidence to start applying for jobs and landing that dream job. The community was part of it too, first getting help and then helping, it was a great way to learn and make it stick.</p>',
     job_title: 'Fullstack Developer',
@@ -56,7 +56,7 @@ success_stories = [
     social_media_link: '#'
   },
   {
-    student_name: 'Mazin Eli',
+    student_name: 'Mazin lisa',
     avatar_path_name: 'mazin.jpg',
     story_content: "<p>In 2014 I wanted to learn how to program, but I had no idea where to start. Grassroot solved that problem for me - it mapped out a series of lesson plans that showed me what to study, without holding my hand or spoon-feeding me information.</p> <p>The curriculum requires hard work and perseverance, but it's worth it. I walked into my first job and felt instantly comfortable with the tools and technologies my employer required. Yes, there was a lot that I didn't know yet, but having done Grassroot also gave me the confidence to pick up new skills as needed.</p>",
     job_title: 'Software Engineer',
