@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
   def home
     @landing_page = true
-    @success_stories = SuccessStory.limit(4)
+    @success_stories = SuccessStory.all.reverse
     @courses = Course.badges
   end
 
@@ -37,6 +37,6 @@ class StaticPagesController < ApplicationController
   def terms_of_use; end
 
   def success_stories
-    @success_stories = SuccessStory.all
+    @success_stories = SuccessStory.all.reverse
   end
 end
