@@ -7,8 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      # Accept:
-      # - application/vnd.github.v3+json
+      Accept:
+      - application/vnd.github.v3+json
       User-Agent:
       - Octokit Ruby Gem 4.20.0
       Content-Type:

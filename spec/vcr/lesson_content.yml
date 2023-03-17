@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents/README.md
+    uri: https://api.github.com/repos/grassroot-software/grassroot_curriculum/contents//README.md
     body:
       encoding: US-ASCII
       string: ''
     headers:
-      # Accept:
-      # - application/vnd.github.v3+json
+      Accept:
+      - application/vnd.github.v3+json
       User-Agent:
       - Octokit Ruby Gem 4.12.0
       Content-Type:

@@ -4,6 +4,7 @@ module Lessons
     sidekiq_options retry: 1, dead: false
 
     def perform(github_paths)
+      p github_path
       lessons = Lesson.where(github_path: github_paths)
 
       lessons.each(&:import_content_from_github)
