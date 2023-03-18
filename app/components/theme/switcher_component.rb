@@ -5,7 +5,7 @@ class Theme::SwitcherComponent < ApplicationComponent
   end
 
   def text
-    "#{current_theme.name.capitalize} mode"
+    "Turn on #{current_theme.name.capitalize} mode"
   end
 
   def other_theme
