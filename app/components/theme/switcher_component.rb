@@ -5,7 +5,11 @@ class Theme::SwitcherComponent < ApplicationComponent
   end
 
   def text
-    "Turn on #{current_theme.name.capitalize} mode"
+   if current_theme.name == "dark"
+    "Turn on Light mode"    
+   else
+    "Turn on Dark mode"        
+   end
   end
 
   def other_theme
