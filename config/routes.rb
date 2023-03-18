@@ -44,6 +44,7 @@ Rails.application.routes.draw do
   get 'blog/1' => 'static_pages#blog1'
   get 'blog/2' => 'static_pages#blog2'
   get 'blog/3' => 'static_pages#blog3'
+  get 'blog/4' => 'static_pages#blog4'
 
   get 'job/1' => 'static_pages#job1'
   get 'job/2' => 'static_pages#job2'
