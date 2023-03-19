@@ -16,7 +16,7 @@ class StaticPagesController < ApplicationController
 
   def blog1; end
   def blog2; end
-  def blog3; end
+  # def blog3; end
   def blog4; end
 
   def job1; end

@@ -48,7 +48,7 @@ Rails.application.routes.draw do
 
   get 'job/1' => 'static_pages#job1'
   get 'job/2' => 'static_pages#job2'
-  get 'job/3' => 'static_pages#job3'
+  # get 'job/3' => 'static_pages#job3'
   get 'job/4' => 'static_pages#job4'
 
 
