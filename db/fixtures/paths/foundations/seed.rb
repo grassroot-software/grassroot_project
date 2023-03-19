@@ -55,7 +55,7 @@ course.add_section do |section|
     foundation_lessons.fetch('Text Editors'),
     foundation_lessons.fetch('Command Line Basics'),
     foundation_lessons.fetch('Setting Up Git'),
-    foundation_lessons.fetch('In-Browser Code Editors'),
+    foundation_lessons.fetch('In Browser Code Editors'),
   )
 end
 

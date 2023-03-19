@@ -44,9 +44,9 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   // Fire an event whenever an ad is clicked
-  document.querySelectorAll('[href^="https://www.thinkful.com/?utm_source=odin"]').forEach((ad) => {
+  document.querySelectorAll('[href^="https://discord.gg/tnztvakSka"]').forEach((ad) => {
     ad.addEventListener('click', (e) => {
-      adId = e.target.closest('[href^="https://www.thinkful.com/?utm_source=odin"]').dataset['adId']
+      adId = e.target.closest('[href^="https://discord.gg/tnztvakSka"]').dataset['adId']
       _gaq.push(['_trackEvent', 'ad', 'click', adId, 1]);
     });
   });

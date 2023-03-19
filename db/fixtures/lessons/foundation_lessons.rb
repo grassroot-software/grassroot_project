@@ -81,6 +81,14 @@ def foundation_lessons
       identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
       installation_lesson: true,
     },
+    'In Browser Code Editors' => {
+      title: 'In Browser Code Editors',
+      description: 'In Browser Code Editors',
+      is_project: false,
+      github_path: '/foundations/installations/in_browser_code_editors.md',
+      identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
+      installation_lesson: true,
+    },
     'Fundamentals Part 1' => {
       title: 'Fundamentals Part 1',
       description: "You'll get a chance to start picking up the programming fundamentals you need to make your webpages dynamic",
