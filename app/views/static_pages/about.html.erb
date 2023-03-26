@@ -1,6 +1,35 @@
 <%= title('About') %>
 
 <div class="page-container">
+
+
+
+
+      <section class="abt">
+          <br>
+          <center><%= image_tag ("tt.webp") %>
+          </center>
+          <br><br>
+      </section>
+
+              <p class="prose max-w-none prose-gray dark:prose-invert">
+        Grassroot is run by an open community of experienced software engineers from Havard and universities around the world.</p>
+        <br>
+              <p class="prose max-w-none prose-gray dark:prose-invert">
+        They volunteer  thier expertise and  time to create a smooth learning path  in web development that is easy to understand and certian to land you a life changing job.</p>
+        <br>
+              <p class="prose max-w-none prose-gray dark:prose-invert">
+        We believe quality education should be free and accessible to all.</p>
+        <br>
+              <p class="prose max-w-none prose-gray dark:prose-invert">
+        Our mission is to achieve the goal in training  1 million young  Africans with skills they need to get hired   in web development jobs  and connect them  to our network of remote employers home and abroad.</p>
+        <br>
+              
+
+
+
+  <br><br><br>
+
   <div class="grid grid-cols-12">
     <div class="col-span-12 md:col-start-3 md:col-span-8">
       <div class="pb-20">
@@ -163,6 +192,10 @@ A verified certificate shows that you have successfully passed a Grassroot cours
 
 <style>
 
+p {
+  margin: 0 1.5rem;
+}
+
 .abt img {
   border-radius: 10px;
   /* max-width: 350px; */
@@ -171,6 +204,9 @@ A verified certificate shows that you have successfully passed a Grassroot cours
 
 /*  */
 @media screen and (max-width: 850px) {
+    .abt center img {
+      max-width: 300px;
+    }
     .abt img {
       max-width: 250px;
     }
