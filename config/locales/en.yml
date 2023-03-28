@@ -90,31 +90,31 @@ en:
         members:
           - name: Erik Trautman
             image: hall_of_fame_images/erik.jpg
-            github_url: http://github.com/eriktrautman
+            github_url: ''
           - name: Joe Sawyer
             image: hall_of_fame_images/joe.jpg
-            github_url: http://github.com/zkay
+            github_url: ''
           - name: Afshin Moktari
             image: hall_of_fame_images/afshin.jpg
-            github_url: http://github.com/afshinator
+            github_url: ''
           - name: Nathan Hall
             image: hall_of_fame_images/nathanhall.png
-            github_url: http://github.com/dominathan
+            github_url: ''
           - name: Abby Jones
             image: hall_of_fame_images/abby.jpg
-            github_url: http://github.com/AbbyJonesDev
+            github_url: ''
           - name: Joshua Gorchov
             image: hall_of_fame_images/joshua.jpg
-            github_url: http://github.com/gorchov
+            github_url: ''
           - name: Neil Gehani
             image: hall_of_fame_images/neil.jpg
-            github_url: http://github.com/ngehani
+            github_url: ''
           - name: Ian White
             image: hall_of_fame_images/ian.jpg
             github_url: ''
           - name: Bill Walker
             image: hall_of_fame_images/bill.jpg
-            github_url: http://github.com/mach1010
+            github_url: ''
           - name: Mazin Power
             image: https://avatars1.githubusercontent.com/u/7075351?v=3&s=400
             github_url: https://github.com/muzfuz
