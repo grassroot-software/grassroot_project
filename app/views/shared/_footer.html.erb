@@ -29,6 +29,9 @@
       <%= render 'shared/footer_cta' %>
     </div>
 
+
+            <% if user_signed_in? %>
+          
     <div class="flex lg:flex-row items-center justify-center lg:justify-start lg:pb-4 gap-y-6 pt-6">
       <div class="flex items-center space-x-0 gap-x-8 gap-y-3 flex-wrap justify-center md:block md:space-x-10">
         <%= link_to 'About', about_path, class: 'hover:text-gray-500 dark:hover:text-gray-400' %>
@@ -38,5 +41,9 @@
         <%= link_to 'Installation Guides', lessons_installation_guides_path, class: 'hover:text-gray-500 dark:hover:text-gray-400' %>
       </div>
     </div>
+            <% else %>
+           
+            <% end %>
+
   </div>
 </footer>
