@@ -54,7 +54,8 @@
         <nav aria-label="Sidebar" class="mt-3">
           <div class="px-2 space-y-1">
             <% if user_signed_in? %>
-              <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard', icon_path: 'icons/home.svg', mobile: true) %>
+            <%= render Nav::ItemComponent.new(path: "https://grassroot.academy", text: 'Home', test_id: 'nav-home', icon_path: 'icons/home.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard', icon_path: 'icons/dash.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths', icon_path: 'icons/map.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: notifications_path, text: 'Notifications', test_id: 'nav-notifications', icon_path: 'icons/bell.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: ODIN_CHAT_URL, text: 'Community', test_id: 'nav-community', icon_path: 'icons/speech-bubbles.svg', mobile: true) %>

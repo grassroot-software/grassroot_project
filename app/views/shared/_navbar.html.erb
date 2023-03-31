@@ -16,6 +16,7 @@
       <div class="hidden md:ml-6 md:flex sm:items-center">
         <% if user_signed_in? %>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <%= render Nav::ItemComponent.new(path: home_path, text: 'Home', test_id: 'nav-dashboard') %>
              <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
             <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
             <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
