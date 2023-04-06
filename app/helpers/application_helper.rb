@@ -9,6 +9,10 @@ module ApplicationHelper
   def title(input = nil)
     content_for(:title) { "#{input} | The Grassroot Project" } if input
   end
+  
+  def meta_description(input = nil)
+    content_for(:meta_description) { "#{input} | The Grassroot Project empowers aspiring web developers to learn together for free" } if input
+  end
 
   def sign_in_or_view_curriculum_button
     if current_user
