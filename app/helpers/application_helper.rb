@@ -13,6 +13,10 @@ module ApplicationHelper
   def meta_description(input = nil)
     content_for(:meta_description) { "#{input} | The Grassroot Project empowers aspiring web developers to learn together for free" } if input
   end
+  
+  def meta_keywords(input = nil)
+    content_for(:meta_keywords) { "#{input} | The Grassroot Project" } if input
+  end
 
   def sign_in_or_view_curriculum_button
     if current_user
