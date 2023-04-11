@@ -5,7 +5,7 @@
       <div class="flex">
       
         <div class="flex-shrink-0 flex items-center">
-          <%= link_to "https://grassroot.academy", class: 'logo' do %>
+          <%= link_to "https://learn.grassroot.academy", class: 'logo' do %>
             <%= image_tag 'logo_grassroot.jpg', alt: 'Grassroot Logo', class: 'block h-12 w-auto' %>
           <% end %>
         </div>
@@ -14,7 +14,7 @@
       <div class="hidden md:ml-6 md:flex sm:items-center">
         <% if user_signed_in? %>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-          <%= render Nav::ItemComponent.new(path: "https://grassroot.academy", text: 'Home', test_id: 'nav-dashboard') %>
+          <%= render Nav::ItemComponent.new(path: "https://learn.grassroot.academy", text: 'Home', test_id: 'nav-dashboard') %>
              <%= render Nav::ItemComponent.new(path: dashboard_path, text: 'Dashboard', test_id: 'nav-dashboard') %>
             <%= render Nav::ItemComponent.new(path: paths_url, text: 'All Paths', test_id: 'nav-all-paths') %>
             <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
@@ -36,7 +36,7 @@
         <% else %>
         
         <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-            <%= render Nav::ItemComponent.new(path: "https://grassroot.academy", text: 'Home', test_id: 'nav-dashboard') %>
+            <%= render Nav::ItemComponent.new(path: "https://learn.grassroot.academy", text: 'Home', test_id: 'nav-dashboard') %>
              <%= render Nav::ItemComponent.new(path: about_path, text: 'About', test_id: 'nav-about') %>
           <%= render Nav::ItemComponent.new(path: blog_path, text: 'Blog', test_id: 'nav-blog') %>          
           <%= render Nav::ItemComponent.new(path: orientation_path, text: 'Orientation', test_id: 'nav-orientation') %>
