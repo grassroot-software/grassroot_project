@@ -7,7 +7,15 @@ module ApplicationHelper
   end
 
   def title(input = nil)
-    content_for(:title) { "#{input} | The Grassroot Project" } if input
+    content_for(:title) { "#{input}" } if input
+  end
+  
+  def meta_description(input = nil)
+    content_for(:meta_description) { "#{input}" } if input
+  end
+  
+  def meta_keywords(input = nil)
+    content_for(:meta_keywords) { "#{input}" } if input
   end
 
   def sign_in_or_view_curriculum_button
