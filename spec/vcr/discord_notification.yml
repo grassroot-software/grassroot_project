@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://discordapp.com/api/webhooks/
+    uri: https://discord.com/invite/tnztvakSka
     body:
       encoding: UTF-8
       string: '{"content":"A MESSAGE","username":null,"avatar_url":null,"tts":false,"embeds":[]}'
