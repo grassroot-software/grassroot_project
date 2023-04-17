@@ -62,7 +62,7 @@ def foundation_lessons
       title: 'Text Editors',
       description: 'The hottest debate in programming, VSCode or Sublime?',
       is_project: false,
-      github_path: '/foundations/installations/text_editors.md',
+      github_path: '/foundations/installations/text_editodrs.md',
       identifier_uuid: 'e65a3229-f1a2-4589-ba7f-c114d8e0c645',
       installation_lesson: true,
     },

@@ -20,6 +20,11 @@ course.add_section do |section|
   section.add_lessons(
     ruby_lessons.fetch('How this Course Will Work'),
     ruby_lessons.fetch('Installing Ruby'),
+    ruby_lessons.fetch('Installation Overview'),
+    ruby_lessons.fetch('Installations'),
+    ruby_lessons.fetch('In Browser Code Editors'),
+    ruby_lessons.fetch('Command Line Basics'),    
+    ruby_lessons.fetch('Setting Up Git'),    
   )
 end
 
@@ -32,10 +37,6 @@ course.add_section do |section|
   section.identifier_uuid = 'bd6d7a38-54d6-4859-b508-c4a2e1deba6b'
 
   section.add_lessons(
-    # ruby_lessons.fetch('Installation Overview'),
-    # ruby_lessons.fetch('Installations'),
-    # ruby_lessons.fetch('In Browser Code Editors'),
-
     ruby_lessons.fetch('Basic Data Types'),
     ruby_lessons.fetch('Variables'),
     ruby_lessons.fetch('Input and Output'),
