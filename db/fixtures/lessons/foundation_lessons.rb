@@ -66,13 +66,13 @@ def foundation_lessons
       identifier_uuid: 'e65a3229-f1a2-4589-ba7f-c114d8e0c645',
       installation_lesson: true,
     },
-    'Command Line Basics' => {
-      title: 'Command Line Basics',
-      description: 'The command line: loved, hated, and feared... but no longer by you.',
-      is_project: false,
-      github_path: '/foundations/installations/command_line_basics.md',
-      identifier_uuid: '3136c43f-e64d-4f92-bcb7-c7ed193c91e9',
-    },
+    # 'Command Line Basics' => {
+    #   title: 'Command Line Basics',
+    #   description: 'The command line: loved, hated, and feared... but no longer by you.',
+    #   is_project: false,
+    #   github_path: '/foundations/installations/command_line_basics.md',
+    #   identifier_uuid: '3136c43f-e64d-4f92-bcb7-c7ed193c91e9',
+    # },
     # 'Setting Up Git' => {
     #   title: 'Setting Up Git',
     #   description: 'The Source Code Ambulance',
