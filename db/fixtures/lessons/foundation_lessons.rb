@@ -73,14 +73,14 @@ def foundation_lessons
       github_path: '/foundations/installations/command_line_basics.md',
       identifier_uuid: '3136c43f-e64d-4f92-bcb7-c7ed193c91e9',
     },
-    'Setting Up Git' => {
-      title: 'Setting Up Git',
-      description: 'The Source Code Ambulance',
-      is_project: false,
-      github_path: '/foundations/installations/setting_up_git.md',
-      identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
-      installation_lesson: true,
-    },
+    # 'Setting Up Git' => {
+    #   title: 'Setting Up Git',
+    #   description: 'The Source Code Ambulance',
+    #   is_project: false,
+    #   github_path: '/foundations/installations/setting_up_git.md',
+    #   identifier_uuid: '8a13a21d-453e-4492-8240-58a2c8d9596f',
+    #   installation_lesson: true,
+    # },
     # 'In Browser Code Editors' => {
     #   title: 'In Browser Code Editors',
     #   description: 'In Browser Code Editors',
