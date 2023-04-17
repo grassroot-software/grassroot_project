@@ -50,8 +50,8 @@ course.add_section do |section|
   section.add_lessons(
     foundation_lessons.fetch('Computer Basics'),
     foundation_lessons.fetch('How Does the Web Work?'),
-    foundation_lessons.fetch('Installation Overview'),
-    foundation_lessons.fetch('Installations'),
+    # foundation_lessons.fetch('Installation Overview'),
+    # foundation_lessons.fetch('Installations'),
     foundation_lessons.fetch('Text Editors'),
     foundation_lessons.fetch('Command Line Basics'),
     foundation_lessons.fetch('Setting Up Git'),
