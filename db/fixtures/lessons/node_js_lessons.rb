@@ -166,11 +166,11 @@ def node_js_lessons
       github_path: '/nodeJS/testing_express/testing_database_operations.md',
       identifier_uuid: '8e0e26ea-57c4-4cc6-9d0d-bf8561de9dae',
     },
-    'Odin-Book' => {
-      title: 'Odin-Book',
+    'Grassroot-Book' => {
+      title: 'Grassroot-Book',
       description: "You'll use everything you've learned so far to replicate Facebook!",
       is_project: true,
-      github_path: '/nodeJS/final_project/project_odin_book.md',
+      github_path: '/nodeJS/final_project/project_grassroot_book.md',
       accepts_submission: true,
       has_live_preview: true,
       identifier_uuid: 'c0d6ba51-620e-49e0-8583-924f38754874',
