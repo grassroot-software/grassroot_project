@@ -32,6 +32,10 @@ course.add_section do |section|
   section.identifier_uuid = 'bd6d7a38-54d6-4859-b508-c4a2e1deba6b'
 
   section.add_lessons(
+    foundation_lessons.fetch('Installation Overview'),
+    foundation_lessons.fetch('Installations'),
+    foundation_lessons.fetch('In Browser Code Editors'),
+    
     ruby_lessons.fetch('Basic Data Types'),
     ruby_lessons.fetch('Variables'),
     ruby_lessons.fetch('Input and Output'),
