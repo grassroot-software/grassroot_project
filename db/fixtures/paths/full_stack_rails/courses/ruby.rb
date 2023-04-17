@@ -19,7 +19,6 @@ course.add_section do |section|
 
   section.add_lessons(
     ruby_lessons.fetch('How this Course Will Work'),
-    ruby_lessons.fetch('Installing Ruby'),
     ruby_lessons.fetch('Installation Overview'),
     ruby_lessons.fetch('Installations'),
     ruby_lessons.fetch('In Browser Code Editors'),
@@ -35,8 +34,9 @@ course.add_section do |section|
   section.title = 'Basic Ruby'
   section.description = "In this section, we'll cover the basic building blocks of Ruby so you have them down cold. Everything else you'll learn in programming builds on these concepts, so you'll be in a great place to take on additional projects and languages in the future."
   section.identifier_uuid = 'bd6d7a38-54d6-4859-b508-c4a2e1deba6b'
-
+  
   section.add_lessons(
+    ruby_lessons.fetch('Installing Ruby'),
     ruby_lessons.fetch('Basic Data Types'),
     ruby_lessons.fetch('Variables'),
     ruby_lessons.fetch('Input and Output'),
