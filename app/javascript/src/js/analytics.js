@@ -44,9 +44,9 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   // Fire an event whenever an ad is clicked
-  document.querySelectorAll('[href^="https://discord.gg/gHmmTe9JfFa"]').forEach((ad) => {
+  document.querySelectorAll('[href^="https://discord.com/invite/gHmmTe9JfF"]').forEach((ad) => {
     ad.addEventListener('click', (e) => {
-      adId = e.target.closest('[href^="https://discord.gg/gHmmTe9JfFa"]').dataset['adId']
+      adId = e.target.closest('[href^="https://discord.com/invite/gHmmTe9JfF"]').dataset['adId']
       _gaq.push(['_trackEvent', 'ad', 'click', adId, 1]);
     });
   });

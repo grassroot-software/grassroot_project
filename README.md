@@ -15,7 +15,7 @@ Some of the topics we cover include:
 
 This repo contains the Grassroot app which pulls in lesson content as well as front-end and back-end code. To see the actual lesson content that gets pulled in, please go to the [Grassroot curriculum repo](https://github.com/grassroot_project/curriculum).
 
-Our community can be found on the [Grassroot Discord server](https://discord.gg/gHmmTe9JfFa).
+Our community can be found on the [Grassroot Discord server](https://discord.com/invite/gHmmTe9JfF).
 
 ## Contributing
 
