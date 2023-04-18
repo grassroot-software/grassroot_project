@@ -1,6 +1,6 @@
 # The Grassroot Project
 
-[The Grassroot Project](https://www.thegrassrootproject.com/) (TOP) is an open-source curriculum for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help users learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
+[The Grassroot Project](https://www.grassrootproject.com/) (Grassroot) is an open-source curriculum for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help users learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
 
 Some of the topics we cover include:
 
@@ -13,15 +13,15 @@ Some of the topics we cover include:
 -   React
 -   How to go about getting a job in the industry
 
-This repo contains the TOP app which pulls in lesson content as well as front-end and back-end code. To see the actual lesson content that gets pulled in, please go to the [TOP curriculum repo](https://github.com/TheOdinProject/curriculum).
+This repo contains the Grassroot app which pulls in lesson content as well as front-end and back-end code. To see the actual lesson content that gets pulled in, please go to the [Grassroot curriculum repo](https://github.com/grassroot_project/curriculum).
 
-Our community can be found on the [TOP Discord server](https://discord.gg/gHmmTe9JfFa).
+Our community can be found on the [Grassroot Discord server](https://discord.gg/gHmmTe9JfFa).
 
 ## Contributing
 
 [![Build Status](https://circleci.com/gh/TheOdinProject/theodinproject.svg?style=svg)](https://app.circleci.com/pipelines/github/TheOdinProject/theodinproject)
 
-The Grassroot Project depends on open-source contributions to improve, grow, and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community. If you would like to contribute to our curriculum, be sure to thoroughly read our [contributing guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md).
+The Grassroot Project depends on open-source contributions to improve, grow, and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community. If you would like to contribute to our curriculum, be sure to thoroughly read our [contributing guide](https://github.com/grassroot_academy/grassroot_project/blob/main/CONTRIBUTING.md).
 
 ## Significant Contributors
 

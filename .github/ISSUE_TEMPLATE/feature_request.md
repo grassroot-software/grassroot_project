@@ -23,7 +23,7 @@ The following checkbox is OPTIONAL:
 <!-- 
 A clear and concise description of what the feature or enhancement is, including how it would be useful/beneficial or what problem(s) it would solve. 
 
-When suggesting an entirely new feature, it can help to provide a statement that follows the "When EVENT occurs, I want SOMETHING to happen, to achieve RESULT" format, e.g. "When I visit TOP after a long break, I want a button to be able to reset all of my progress at once, so I can start afresh." 
+When suggesting an entirely new feature, it can help to provide a statement that follows the "When EVENT occurs, I want SOMETHING to happen, to achieve RESULT" format, e.g. "When I visit Grassroot after a long break, I want a button to be able to reset all of my progress at once, so I can start afresh." 
 -->
 
 

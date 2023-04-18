@@ -1,6 +1,6 @@
 # The Grassroot Project Contributing Guide
 
-Thank you for expressing interest in contributing to The Grassroot Project (TOP)! Whether you are a first time contributor or you have made several contributions to our repos, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
+Thank you for expressing interest in contributing to The Grassroot Project Whether you are a first time contributor or you have made several contributions to our repos, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
 ## Table of Contents
 * [Curriculum Structure](#curriculum-structure)
@@ -19,7 +19,7 @@ Thank you for expressing interest in contributing to The Grassroot Project (TOP)
 
 Between our website, repos, and Discord server, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
 
-* **Path**: The broadest level of the curriculum structure. When you first start TOP, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
+* **Path**: The broadest level of the curriculum structure. When you first start Grassroot, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
 * **Section**: A course is made up of different sections. A section splits a course into even more distinct topics. When asked what section you're on, you might say "I just started the Basic Ruby section!"
 * **Lesson**: Finally, a section is made up of different lessons. This is the most specific level of the curriculum structure. This is the exact thing you're currently on. When asked what lesson you're on, you might say "I'm reading through the Webpack lesson!"
@@ -79,7 +79,7 @@ Significant issues and changes can include:
 
 ### Repo Specific Instructions
 
-#### [TOP Curriculum Repo](https://github.com/TheOdinProject/curriculum)
+#### [Grassroot Curriculum Repo](https://github.com/TheOdinProject/curriculum)
 
 If you're new to contributing to open-source, or if you just want to make a really quick PR, you can click the "Improve this lesson on GitHub" link found at the end of each lesson instead of going through the steps to fork + clone one of our repos.
 
@@ -89,9 +89,9 @@ Before submitting a PR for an existing or a new lesson, you must use our [Lesson
   
 <hr>
 
-#### [TOP Website Repo](https://github.com/TheOdinProject/theodinproject)
+#### [Grassroot Website Repo](https://github.com/TheOdinProject/theodinproject)
 
-Before starting any work on our main website repo, you must read and follow the instructions found on [The Grassroot Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki), specifically the pages regarding running TOP locally and adding new paths, courses, sections, and lessons.
+Before starting any work on our main website repo, you must read and follow the instructions found on [The Grassroot Project Wiki](https://github.com/TheOdinProject/theodinproject/wiki), specifically the pages regarding running Grassroot locally and adding new paths, courses, sections, and lessons.
 
 Before submitting a PR to our website repo, you must run the following tests in your local clone to ensure they all pass:
 
@@ -168,7 +168,7 @@ Before you begin working on anything, make sure you follow these steps in order 
     git clone git@github.com:Odinson/css-exercises.git
     ```
 
-3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with TOP's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
+3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with Grassroot's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
 
     ```bash
     # If you have SSH set up with Git:
@@ -225,9 +225,9 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    * Once you have switched to the correct branch on GitHub, click the "Contribute" dropdown and then click the "Open pull request" button.
 
 2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
-   * If a checkbox is not required and is not applicable to your PR, do not complete it. For example, if you submit a PR to our main TOP repo that only involves making changes to documentation, you would not need to run any tests.
+   * If a checkbox is not required and is not applicable to your PR, do not complete it. For example, if you submit a PR to our main Grassroot repo that only involves making changes to documentation, you would not need to run any tests.
    * The title of the PR must follow the format described in the PR template.
-   * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
+   * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another Grassroot repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
    * If the PR is not part of an open issue, be sure to describe the reason(s) for the change(s) in more detail in Step 1 of the PR template, as well as outlining the changes made in the PR in Step 2.
 
 3. At this point a maintainer will either leave general comments, request changes, or approve and merge your PR.

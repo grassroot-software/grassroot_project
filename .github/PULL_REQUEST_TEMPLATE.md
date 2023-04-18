@@ -12,7 +12,7 @@
 <!--
 If this PR closes an open issue in this repo, replace the XXXXX below with the issue number, e.g. Closes #2013.
 
-If this PR closes an open issue in another TOP repo, replace the #XXXXX with the URL of the issue, e.g. Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX
+If this PR closes an open issue in another Grassroot repo, replace the #XXXXX with the URL of the issue, e.g. Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX
 
 If this PR does not close, but is related to another issue or PR, you can link it as above without the 'Closes' keyword, e.g. 'Related to #2013'.
 -->
