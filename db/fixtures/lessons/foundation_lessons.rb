@@ -255,7 +255,7 @@ def foundation_lessons
     'In - Browser Code Editor' => {
         title: 'In - Browser Code Editor',
         description: 'Create a full HTML project.',
-        is_project: true,
+        is_project: false,
         github_path: '/foundations/html_css/html-foundations/in_browser_code_editor.md',
         identifier_uuid: '3c8ad955-4f4e-4555-86bc-98503s1b785d',
         accepts_submission: true,
