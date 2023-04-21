@@ -90,6 +90,7 @@ course.add_section do |section|
     foundation_lessons.fetch('Links and Images'),
     git_lessons.fetch('Commit Messages'),
     foundation_lessons.fetch('Recipes'),
+    foundation_lessons.fetch('In - Browser Code Editor'),
   )
 end
 
