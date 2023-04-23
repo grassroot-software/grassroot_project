@@ -19,11 +19,11 @@ course.add_section do |section|
 
   section.add_lessons(
     ruby_lessons.fetch('How this Course Will Work'),
-    ruby_lessons.fetch('Installation Overview'),
-    ruby_lessons.fetch('Installations'),
+    # ruby_lessons.fetch('Installation Overview'),
+    # ruby_lessons.fetch('Installations'),
     ruby_lessons.fetch('In Browser Code Editors'),
-    ruby_lessons.fetch('Command Line Basics'),    
-    ruby_lessons.fetch('Setting Up Git'),    
+    # ruby_lessons.fetch('Command Line Basics'),    
+    # ruby_lessons.fetch('Setting Up Git'),    
   )
 end
 
