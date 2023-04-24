@@ -139,7 +139,6 @@ course.add_section do |section|
     foundation_lessons.fetch('Understanding Errors'),
     foundation_lessons.fetch('Rock Paper Scissors'),
     foundation_lessons.fetch('Clean Code'),
-    foundation_lessons.fetch('Installing Node.js'),
     foundation_lessons.fetch('Fundamentals Part 4'),
     foundation_lessons.fetch('DOM Manipulation and Events'),
     foundation_lessons.fetch('Revisiting Rock Paper Scissors'),
@@ -165,6 +164,7 @@ course.add_section do |section|
     # foundation_lessons.fetch('In Browser Code Editors'),
     foundation_lessons.fetch('Command Line Basics'),
     foundation_lessons.fetch('Setting Up Git'),
+    foundation_lessons.fetch('Installing Node.js'),
   )
 end
 
