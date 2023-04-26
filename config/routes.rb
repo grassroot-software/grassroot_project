@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   end
 
   authenticated :user do
-    root to: redirect('/dashboard'), as: :authenticated_root
+    root to: redirect('/paths'), as: :authenticated_root
   end
 
   devise_for(
