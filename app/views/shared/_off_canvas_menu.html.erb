@@ -85,7 +85,7 @@
             <%= render Nav::ItemComponent.new(path: "https://grassroot.academy/about_grassroot", text: 'About', test_id: 'nav-about', icon_path: 'icons/about.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: blog_path, text: 'Blog', test_id: 'nav-blog', icon_path: 'icons/blog.svg', mobile: true) %>
               <%= render Nav::ItemComponent.new(path: orientation_path, text: 'Orientation', test_id: 'nav-orientation', icon_path: 'icons/orientation.svg', mobile: true) %>
-              <%= render Nav::ItemComponent.new(path: sign_up_path, text: 'Get started', test_id: 'nav-sign-up', icon_path: 'icons/rocket.svg', mobile: true) %>
+              <%= render Nav::ItemComponent.new(path: "https://grassroot.academy/programs", text: 'Get started', test_id: 'nav-sign-up', icon_path: 'icons/rocket.svg', mobile: true) %>
               <%= turbo_frame_tag 'theme_switcher_mobile' do %>
                 <%= render Theme::SwitcherComponent.new(current_theme:, type: :mobile) %>
               <% end %>
